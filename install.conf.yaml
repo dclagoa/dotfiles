@@ -1,0 +1,40 @@
+- clean: ['~']
+
+- link:
+    ~/.dotfiles/: 
+        create: true
+        force:  true
+        path: ''
+    ~/.screenrc:
+        create: true
+        force: true
+        path: 'programs/screenrc'
+    ~/.hushlogin: 
+        create: true
+        path: 'shells/hushlogin'
+    ~/.exports: 
+        create: true
+        force: true
+        path: 'shells/exports'
+    ~/.vimrc:
+        create: true
+        force:  true
+        path:   'spf13/.vimrc'
+    ~/.vimrc.before:
+        create: true
+        force:  true
+        path:   'spf13/.vimrc.before'
+    ~/.vimrc.bundles:
+        create: true
+        force:  true
+        path:   'spf13/.vimrc.bundles'
+    ~/.vim/:
+        path:   'programs/vim/'
+    ~/.vim.local:
+        create: true
+        force:  true
+        path:   'programs/vim.local'
+
+
+- shell:
+    - [git submodule update, Installing/updating submodules]

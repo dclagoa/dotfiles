@@ -1,0 +1,6 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+[submodule "spf13-vim"]
+	path = spf13-vim
+	url = https://github.com/spf13/spf13-vim
