@@ -1,18 +1,18 @@
 - clean: ['~']
 
 - link:
-    ~/.dotfiles/: 
+    ~/.dotfiles:
         create: true
         force:  true
-        path: ''
+        path: ""
     ~/.screenrc:
         create: true
         force: true
         path: 'programs/screenrc'
-    ~/.hushlogin: 
+    ~/.hushlogin:
         create: true
         path: 'shells/hushlogin'
-    ~/.exports: 
+    ~/.exports:
         create: true
         force: true
         path: 'shells/exports'
