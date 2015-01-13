@@ -32,7 +32,10 @@
         create: true
         force:  true
         path:   'programs/vimrc.local'
-
+    ~/.vim/bundle/vundle:
+        create: true
+        force:  true
+        path:   'Vundle.vim'
 
 - shell:
     - [git submodule update, Installing/updating submodules]
