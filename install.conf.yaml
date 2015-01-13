@@ -19,22 +19,21 @@
     ~/.vimrc:
         create: true
         force:  true
-        path:   'spf13/.vimrc'
+        path:   'spf13-vim/.vimrc'
     ~/.vimrc.before:
         create: true
         force:  true
-        path:   'spf13/.vimrc.before'
+        path:   'spf13-vim/.vimrc.before'
     ~/.vimrc.bundles:
         create: true
         force:  true
-        path:   'spf13/.vimrc.bundles'
-    ~/.vim/:
-        path:   'programs/vim/'
-    ~/.vim.local:
+        path:   'spf13-vim/.vimrc.bundles'
+    ~/.vimrc.local:
         create: true
         force:  true
-        path:   'programs/vim.local'
+        path:   'programs/vimrc.local'
 
 
 - shell:
     - [git submodule update, Installing/updating submodules]
+    - [vim +BundleInstall! +BundleClean +q, Updating Vim]
