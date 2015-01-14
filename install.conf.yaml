@@ -62,6 +62,3 @@
         force:  true
         path:   'prezto'
 
-- shell:
-    - [git submodule update, Installing/updating submodules]
-    - [vim +BundleInstall! +BundleClean +q, Updating Vim]
