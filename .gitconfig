@@ -1,0 +1,9 @@
+[user]
+	name = David Conde Lagoa
+	email = dev@droid.es
+[core]
+	editor = vim
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true

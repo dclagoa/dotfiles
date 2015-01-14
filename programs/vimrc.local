@@ -10,3 +10,4 @@ elseif WINDOWS() && has("gui_running")
     set guifont=Source_Code_Pro:h12,Menlo:h10,Consolas:h10,Courier_New:h10
 endif
 
+let g:yankring_history_dir = '~/.vim/'
