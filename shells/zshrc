@@ -12,6 +12,6 @@ fi
 
 # Customize to your needs...
 
-if [[ -s "${ZDOTDIR:-$HOME}/.aliases.local" ]]; then
-  source "${ZDOTDIR:-$HOME}/.aliases.local"
+if [[ -s "${ZDOTDIR:-$HOME}/.zshrc.local" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zshrc.local"
 fi
