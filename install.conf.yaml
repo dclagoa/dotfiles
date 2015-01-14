@@ -14,6 +14,7 @@
         path: 'programs/screenrc'
     ~/.hushlogin:
         create: true
+        force:  true
         path: 'shells/hushlogin'
     ~/.exports:
         create: true
@@ -62,3 +63,5 @@
         force:  true
         path:   'prezto'
 
+- shell:
+    - [vim +BundleInstall +BundleClean +qall, Installing vim modules]
