@@ -1,3 +1,6 @@
+- shell:
+    - [git submodule update, Installing/updating submodules]
+
 - clean: ['~']
 
 - link:
