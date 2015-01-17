@@ -46,9 +46,6 @@
     ~/.zlogin:
         create: true
         path:   'prezto/runcoms/zlogin'
-    ~/.zlogout:
-        create: true
-        path:   'prezto/runcoms/zlogout'
     ~/.zpreztorc:
         create: true
         path:   'prezto/runcoms/zpreztorc'
@@ -62,6 +59,10 @@
         create: true
         force:  true
         path:   'prezto'
+    ~/.functions.zsh:
+        create: true
+        force:  true
+        path:   'shells/functions.zsh'
 
 - shell:
     - [vim +BundleInstall +BundleClean +qall, Installing vim modules]
